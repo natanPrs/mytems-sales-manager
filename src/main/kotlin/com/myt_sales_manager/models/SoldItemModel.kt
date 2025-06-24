@@ -14,7 +14,7 @@ data class SoldItemModel(
     @Id
     val id: UUID = UUID.randomUUID(),
 
-    val itemId: UUID,
+    val globalItemId: UUID,
 
     val sellerId: UUID,
 
