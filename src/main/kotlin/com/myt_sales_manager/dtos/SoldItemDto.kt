@@ -5,7 +5,7 @@ import java.time.LocalDateTime
 import java.util.UUID
 
 data class SoldItemDto(
-    val itemId: UUID,
+    val globalItemId: UUID,
 
     val sellerId: UUID,
 

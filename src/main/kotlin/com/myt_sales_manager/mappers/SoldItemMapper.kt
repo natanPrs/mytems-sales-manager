@@ -5,7 +5,7 @@ import com.myt_sales_manager.models.SoldItemModel
 
 fun SoldItemDto.toEntity(): SoldItemModel =
     SoldItemModel(
-        itemId = this.itemId,
+        globalItemId = this.globalItemId,
         sellerId = this.sellerId,
         buyerId = this.buyerId,
         amount = this.amount,
